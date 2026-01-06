@@ -3,7 +3,7 @@
 
 #let slides(body) = {
 	set page(fill: rgb("#1a1a1a"))
-	set text(fill: white, font: ("Futura Std", "Noto Sans CJK SC"))
+	set text(fill: white, font: ("Inter", "Noto Sans CJK SC"))
 
 	show: simple-theme.with(
 		aspect-ratio: "16-9",
