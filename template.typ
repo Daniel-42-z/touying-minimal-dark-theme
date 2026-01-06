@@ -4,6 +4,7 @@
 #let slides(body) = {
 	set page(fill: rgb("#1a1a1a"))
 	set text(fill: white, font: ("Inter", "Noto Sans CJK SC"))
+	set table(stroke: white)
 
 	show: simple-theme.with(
 		aspect-ratio: "16-9",

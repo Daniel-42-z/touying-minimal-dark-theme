@@ -15,3 +15,10 @@
 
 - Sub-headings work too.
 - Header shows current heading.
+- Regular table has white borders by default, this isn't done for third-party table packages like rubber-article's `ctable` and these need to be configured manually
+
+#table(
+	columns: 2,
+	[a],[b],
+	[c],[d]
+)
